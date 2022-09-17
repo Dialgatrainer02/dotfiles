@@ -1,0 +1,7 @@
+desert_pyramid;-58;-26
+desert_pyramid;-14;-22
+pillager_outpost;9;20
+desert_pyramid;-53;-126
+pillager_outpost;-45;-152
+pillager_outpost;-31;-95
+shipwreck;-14;-135

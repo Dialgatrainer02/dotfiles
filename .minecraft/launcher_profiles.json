@@ -1,0 +1,44 @@
+{
+  "profiles": {
+    "6ebee47381264eba86f673c717826071": {
+      "name": "(Default)",
+      "type": "custom",
+      "created": "2022-08-12T19:04:32+01:00",
+      "lastUsed": "2022-08-12T19:04:32+01:00"
+    },
+    "0be5a1f98885460ab770f491e1ed0f89": {
+      "name": "(Default)",
+      "type": "custom",
+      "created": "2022-07-24T17:24:15+01:00",
+      "lastUsed": "2022-07-24T17:24:15+01:00"
+    },
+    "cad11a8b35d64f82b8cc5392414653ef": {
+      "name": "fabric-loader-1.19.1",
+      "gameDir": "/home/charlie/.minecraft",
+      "lastVersionId": "fabric-loader-0.14.8-1.19.1",
+      "resolution": {
+        "width": 854,
+        "height": 480,
+        "fullscreen": false
+      },
+      "launcherVisibilityOnGameClose": "hide launcher and re-open when game closes",
+      "memoryMax": 11264,
+      "type": "custom",
+      "created": "2022-07-31T11:31:04+01:00",
+      "lastUsed": "2022-08-12T19:22:28+01:00",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACABAMAAAAxEHz4AAAAGFBMVEUAAAA4NCrb0LTGvKW8spyAem2uppSakn5SsnMLAAAAAXRSTlMAQObYZgAAAJ5JREFUaIHt1MENgCAMRmFWYAVXcAVXcAVXcH3bhCYNkYjcKO8dSf7v1JASUWdZAlgb0PEmDSMAYYBdGkYApgf8ER3SbwRgesAf0BACMD1gB6S9IbkEEBfwY49oNj4lgLhA64C0o9R9RABTAvp4SX5kB2TA5y8EEAK4pRrxB9QcA4QBWkj3GCAMUCO/xwBhAI/kEsCagCHDY4AwAC3VA6t4zTAMj0OJAAAAAElFTkSuQmCC"
+    },
+    "288f793a750a4590ba75f8added80aad": {
+      "name": "(Default)",
+      "type": "custom",
+      "created": "2022-07-24T17:06:25+01:00",
+      "lastUsed": "2022-07-24T17:06:25+01:00"
+    }
+  },
+  "selectedProfile": "cad11a8b35d64f82b8cc5392414653ef",
+  "settings": {
+    "enableAdvanced": false,
+    "profileSorting": "byName"
+  },
+  "version": 3
+}

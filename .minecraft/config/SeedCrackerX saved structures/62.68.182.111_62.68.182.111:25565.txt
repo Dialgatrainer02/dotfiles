@@ -1,0 +1,2 @@
+pillager_outpost;-403;-175
+shipwreck;-402;-188

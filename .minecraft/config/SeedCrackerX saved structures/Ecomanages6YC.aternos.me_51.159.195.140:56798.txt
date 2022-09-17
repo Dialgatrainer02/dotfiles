@@ -1,0 +1,3 @@
+pillager_outpost;9;20
+shipwreck;-103;107
+buried_treasure;-99;116

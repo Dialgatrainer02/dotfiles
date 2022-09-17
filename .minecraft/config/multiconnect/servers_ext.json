@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "Ecomanages6YC.aternos.me:25565": {
+      "forcedProtocol": -1
+    },
+    "Ecomanages6YC.aternos.me:56798": {
+      "forcedProtocol": -1
+    }
+  }
+}

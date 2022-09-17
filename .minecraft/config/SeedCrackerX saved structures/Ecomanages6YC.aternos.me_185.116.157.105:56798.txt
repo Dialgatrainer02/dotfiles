@@ -1,0 +1,8 @@
+desert_pyramid;-14;-22
+pillager_outpost;9;20
+igloo;119;44
+igloo;77;47
+shipwreck;161;64
+shipwreck;183;88
+shipwreck;195;85
+shipwreck;183;88

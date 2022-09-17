@@ -1,0 +1,425 @@
+[19:22:35] [main/INFO]: Loading Minecraft 1.19.1 with Fabric Loader 0.14.8
+[19:22:35] [ForkJoinPool-1-worker-4/WARN]: Mod com_seedfinding_mc_terrain uses the version 9e937ddb838e28e79423c287fa18b1ce66f061d7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9e937ddb838e28e79423c287fa18b1ce66f061d7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:22:35] [ForkJoinPool-1-worker-4/WARN]: Mod com_seedfinding_mc_noise uses the version a6ab8e6c688491829f8d2adf845392da22ef8e9c which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'a6ab8e6c688491829f8d2adf845392da22ef8e9c'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:22:35] [ForkJoinPool-1-worker-5/WARN]: Mod com_seedfinding_mc_math uses the version 0eb505174da8a92550f8ec6efe254e0fa936cc0d which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0eb505174da8a92550f8ec6efe254e0fa936cc0d'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:22:35] [ForkJoinPool-1-worker-6/WARN]: Mod com_seedfinding_mc_seed uses the version 5518e3ba3ee567fb0b51c15958967f70a6a19e02 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '5518e3ba3ee567fb0b51c15958967f70a6a19e02'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:22:35] [ForkJoinPool-1-worker-4/WARN]: Mod com_seedfinding_mc_core uses the version d685a37f0a466d4bf800e7f285daf9ef73c81678 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'd685a37f0a466d4bf800e7f285daf9ef73c81678'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:22:35] [ForkJoinPool-1-worker-5/WARN]: Mod com_seedfinding_mc_biome uses the version b2271807a047bb43ac60c8c20ad47e315f19b9a6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'b2271807a047bb43ac60c8c20ad47e315f19b9a6'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:22:35] [ForkJoinPool-1-worker-6/WARN]: Mod com_seedfinding_mc_feature uses the version c29fd1fcd746e14c1bcdb127da3113ba273db1fd which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'c29fd1fcd746e14c1bcdb127da3113ba273db1fd'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:22:35] [main/WARN]: Warnings were found!
+ - Mod 'AdvancementInfo' (advancementinfo) 1.19.1-fabric0.58.5-1.3.1 recommends version 2.0.0 or later of modmenu, which is missing!
+	 - You should install version 2.0.0 or later of modmenu for the optimal experience.
+ - Mod 'Debugify' (debugify) 2.4.0 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Debugify' (debugify) 2.4.0 conflicts with any version of mod 'Forget Me Chunk' (forgetmechunk), which is present with the following versions: 1.0.4-1.18.X-1.19.X!
+	 - While this won't prevent you from starting the game, the developer(s) of mod 'Debugify' (debugify) have found that this combination may cause issues. You should remove one of the mods or check for updates that resolve the issue.
+ - Mod 'LambdaBetterGrass' (lambdabettergrass) 1.3.0+1.19 recommends version 4.0.0 or later of modmenu, which is missing!
+	 - You should install version 4.0.0 or later of modmenu for the optimal experience.
+ - Mod 'LambDynamicLights' (lambdynlights) 2.1.2+1.19 recommends version 4.0.0 or later of modmenu, which is missing!
+	 - You should install version 4.0.0 or later of modmenu for the optimal experience.
+[19:22:35] [main/INFO]: Loading 98 mods:
+	- advancementinfo 1.19.1-fabric0.58.5-1.3.1
+	- badpackets 0.2.0
+	- baritone 1.19.1-SNAPSHOT via meteor-client
+	- bettermounthud 1.1.4
+	- caffeineconfig 1.0.0+1.17 via sodium-extra
+	- clientarguments 1.4.1 via clientcommands
+	- clientcommands 2.7.2
+	- cloth-basic-math 0.6.1 via cloth-config
+	- cloth-config 7.0.73 via advancementinfo
+	- com_github_llamalad7_mixinextras 0.0.12 via debugify
+	- com_logisticscraft_occlusionculling 0.0.6-SNAPSHOT via entityculling
+	- com_seedfinding_latticg 1.6 via seedcrackerx
+	- com_seedfinding_mc_biome b2271807a047bb43ac60c8c20ad47e315f19b9a6 via seedcrackerx
+	- com_seedfinding_mc_core d685a37f0a466d4bf800e7f285daf9ef73c81678 via seedcrackerx
+	- com_seedfinding_mc_feature c29fd1fcd746e14c1bcdb127da3113ba273db1fd via seedcrackerx
+	- com_seedfinding_mc_math 0eb505174da8a92550f8ec6efe254e0fa936cc0d via seedcrackerx
+	- com_seedfinding_mc_noise a6ab8e6c688491829f8d2adf845392da22ef8e9c via seedcrackerx
+	- com_seedfinding_mc_reversal 2.0.0 via seedcrackerx
+	- com_seedfinding_mc_seed 5518e3ba3ee567fb0b51c15958967f70a6a19e02 via seedcrackerx
+	- com_seedfinding_mc_terrain 9e937ddb838e28e79423c287fa18b1ce66f061d7 via seedcrackerx
+	- debugify 2.4.0
+	- entityculling 1.5.2-mc1.19
+	- fabric 0.58.5+1.19.1
+	- fabric-api-base 0.4.9+e62f51a395 via fabric
+	- fabric-api-lookup-api-v1 1.6.7+9ff28f4095 via fabric
+	- fabric-biome-api-v1 9.0.15+d5533c0195 via fabric
+	- fabric-blockrenderlayer-v1 1.1.18+9ff28f4095 via fabric
+	- fabric-command-api-v1 1.2.9+f71b366f95 via fabric
+	- fabric-command-api-v2 2.1.5+0c17ea9695 via fabric
+	- fabric-commands-v0 0.2.26+df3654b395 via fabric
+	- fabric-containers-v0 0.1.31+df3654b395 via fabric
+	- fabric-content-registries-v0 3.2.1+07df213e95 via fabric
+	- fabric-convention-tags-v1 1.0.8+37622d2495 via fabric
+	- fabric-crash-report-info-v1 0.2.3+bd0a0d4a95 via fabric
+	- fabric-data-generation-api-v1 5.1.5+a680b9b495 via fabric
+	- fabric-dimensions-v1 2.1.28+a6d2f78595 via fabric
+	- fabric-entity-events-v1 1.4.16+9ff28f4095 via fabric
+	- fabric-events-interaction-v0 0.4.26+9ff28f4095 via fabric
+	- fabric-events-lifecycle-v0 0.2.26+df3654b395 via fabric
+	- fabric-game-rule-api-v1 1.0.19+1899036195 via fabric
+	- fabric-item-api-v1 1.5.5+35a03c4395 via fabric
+	- fabric-item-groups-v0 0.3.26+9ff28f4095 via fabric
+	- fabric-key-binding-api-v1 1.0.18+9ff28f4095 via fabric
+	- fabric-keybindings-v0 0.2.16+df3654b395 via fabric
+	- fabric-lifecycle-events-v1 2.1.0+33fbc73895 via fabric
+	- fabric-loot-api-v2 1.1.1+03a4e56895 via fabric
+	- fabric-loot-tables-v1 1.1.4+9e7660c695 via fabric
+	- fabric-message-api-v1 5.0.1+4e0178f495 via fabric
+	- fabric-mining-level-api-v1 2.1.11+33fbc73895 via fabric
+	- fabric-models-v0 0.3.15+9ff28f4095 via fabric
+	- fabric-networking-api-v1 1.2.1+3082331495 via fabric
+	- fabric-networking-v0 0.3.18+df3654b395 via fabric
+	- fabric-object-builder-api-v1 4.0.8+9ff28f4095 via fabric
+	- fabric-particles-v1 1.0.8+dc39553a95 via fabric
+	- fabric-registry-sync-v0 0.9.21+23c4cfef95 via fabric
+	- fabric-renderer-api-v1 1.0.8+9ff28f4095 via fabric
+	- fabric-renderer-indigo 0.6.10+5187d39f95 via fabric
+	- fabric-renderer-registries-v1 3.2.18+df3654b395 via fabric
+	- fabric-rendering-data-attachment-v1 0.3.12+9ff28f4095 via fabric
+	- fabric-rendering-fluids-v1 3.0.5+9ff28f4095 via fabric
+	- fabric-rendering-v0 1.1.20+df3654b395 via fabric
+	- fabric-rendering-v1 1.10.14+9ff28f4095 via fabric
+	- fabric-resource-conditions-api-v1 2.0.9+e62f51a395 via fabric
+	- fabric-resource-loader-v0 0.5.6+5f1a85e095 via fabric
+	- fabric-screen-api-v1 1.0.24+f05effaf95 via fabric
+	- fabric-screen-handler-api-v1 1.2.10+9ff28f4095 via fabric
+	- fabric-textures-v0 1.0.18+9ff28f4095 via fabric
+	- fabric-transfer-api-v1 2.0.9+e62f51a395 via fabric
+	- fabric-transitive-access-wideners-v1 1.1.1+9e7660c695 via fabric
+	- fabricloader 0.14.8
+	- ferritecore 4.2.1
+	- forgetmechunk 1.0.4-1.18.X-1.19.X
+	- indium 1.0.7+mc1.19
+	- iris 1.2.6
+	- java 17
+	- lambdabettergrass 1.3.0+1.19
+	- lambdynlights 2.1.2+1.19
+	- lazydfu 0.1.3
+	- litematica 0.12.3
+	- malilib 0.13.0
+	- meteor-client 0.5.1-1571
+	- meteor-crash-addon 0.6
+	- meteor-rejects 0.2
+	- meteorplus 1.1
+	- minecraft 1.19.1
+	- mixin-conflict-helper 1.1.0
+	- multiconnect-api 1.5.10 via clientcommands
+	- org_anarres_jcpp 1.4.14 via iris
+	- org_joml_joml 1.10.4 via sodium
+	- pride 1.1.2+1.19 via lambdynlights
+	- reeses-sodium-options 1.4.4+mc1.19-build.47
+	- seedcrackerx 2.13.1
+	- seedcrackerx-api 2.10.1 via meteor-rejects
+	- smoothboot 1.19-1.7.1
+	- sodium 0.4.2+build.16
+	- sodium-extra 0.4.6+mc1.19-build.47
+	- spruceui 4.0.0+1.19 via lambdynlights
+	- wthit 5.8.0
+[19:22:35] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/charlie/.minecraft/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[19:22:35] [main/INFO]: Compatibility level set to JAVA_16
+[19:22:35] [main/INFO]: Compatibility level set to JAVA_17
+[19:22:35] [main/WARN]: Reference map 'clientarguments-refmap.json' for clientarguments.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:22:36] [main/INFO]: Preloading Debugify
+[19:22:36] [main/INFO]: Done.
+[19:22:36] [main/WARN]: Reference map 'meteor-crash-addon-refmap.json' for meteorcrashaddon.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:22:36] [main/INFO]: Loaded configuration file for Sodium: 29 options available, 1 override(s) found
+[19:22:36] [main/INFO]: Loaded configuration file for Sodium Extra: 27 options available, 0 override(s) found
+[19:22:36] [main/WARN]: Force disabled MC-162253 because it's conflicting with: forgetmechunk
+[19:22:37] [main/WARN]: Force-disabling mixin 'features.sky.MixinWorldRenderer' as rule 'mixin.features.sky' (added by mods [iris]) disables it and children
+[19:22:37] [main/INFO]: Smooth Boot config initialized
+[19:22:38] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath
+[19:22:38] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[19:22:42] [main/INFO]: Building unoptimized datafixer
+[19:22:44] [Render thread/WARN]: Method overwrite conflict for method_22920 in sodium.mixins.json:features.buffer_builder.intrinsics.MixinBufferBuilder from mod sodium, previously written by net.coderbot.iris.mixin.vertices.block_rendering.MixinBufferBuilder_SeparateAo. Skipping method.
+[19:22:45] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:22:45] [Render thread/INFO]: Setting user: Dialgatrainer069
+[19:22:45] [Render thread/INFO]: Enabled 71/73 bugs!
+[19:22:45] [Render thread/INFO]: Successfully Debugify'd your game!
+[19:22:46] [Render thread/INFO]: [WTHIT] Registering plugin waila:core at mcp.mobius.waila.plugin.core.WailaCore
+[19:22:46] [Render thread/INFO]: [WTHIT] Registering plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.WailaVanilla
+[19:22:46] [Render thread/INFO]: [WTHIT] Plugin config reloaded
+[19:22:46] [Render thread/INFO]: AdvancementInfo initialized
+[19:22:46] [Render thread/INFO]: Loading Description Cache
+[19:22:47] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[19:22:47] [Render thread/WARN]: Static binding violation: PRIVATE @Overwrite method method_23182 in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[19:22:47] [Render thread/INFO]: [LambdaBetterGrass] Initializing LambdaBetterGrass...
+[19:22:47] [Render thread/INFO]: [LambdaBetterGrass] Configuration loaded.
+[19:22:47] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[19:22:47] [Render thread/INFO]: [LambDynLights] Configuration loaded.
+[19:22:47] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] Cached update file detected, using that!
+[19:22:47] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[19:22:47] [Render thread/INFO]: Debug functionality is disabled.
+[19:22:47] [Render thread/INFO]: Shaders are disabled because enableShaders is set to false in iris.properties
+[19:22:47] [Render thread/INFO]: Shaders are disabled
+[19:22:48] [Render thread/INFO]: Hardware information:
+[19:22:48] [Render thread/INFO]: CPU: 8x Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+[19:22:48] [Render thread/INFO]: GPU: NVIDIA GeForce MX230/PCIe/SSE2 (Supports OpenGL 3.2.0 NVIDIA 515.65.01)
+[19:22:48] [Render thread/INFO]: OS: Linux (5.18.16-arch1-1)
+[19:22:49] [Worker-Main-1/ERROR]: Failed to retrieve profile key pair
+java.io.IOException: Could not retrieve profile key pair
+	at net.minecraft.class_7434.method_43605(class_7434.java:122) ~[client-intermediary.jar:?]
+	at net.minecraft.class_7434.method_44291(class_7434.java:62) ~[client-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[19:22:49] [Render thread/WARN]: ERROR : Couldn't load Narrator library
+java.lang.UnsatisfiedLinkError: libflite.so.1: cannot open shared object file: No such file or directory
+	at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:277) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+	at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+	at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+	at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:636) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.8.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.8.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.8.jar:?]
+[19:22:49] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (AdvancementInfo, CaffeineConfig, clientarguments, Client Commands, Cloth Config v6, Debugify, EntityCulling-Fabric, Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Indium, Iris, LambdaBetterGrass, LambDynamicLights, LazyDFU, Litematica, MaLiLib, Meteor Client, Meteor Crash Addon, Meteor Rejects, MeteorPlus, MultiConnect API, Pride Lib, Reese's Sodium Options, SeedCrackerX, SeedCrackerX API, Smooth Boot, Sodium, Sodium Extra, SpruceUI, wthit)
+[19:22:49] [Render thread/INFO]: [LambdaBetterGrass] Inject generated resource packs.
+[19:22:49] [Render thread/INFO]: Creating pipeline for dimension OVERWORLD
+[19:22:50] [Render thread/INFO]: Initializing Meteor Client
+[19:22:51] [Render thread/INFO]: Reflections took 836 ms to scan 1 urls, producing 17 keys and 780 values
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=Comfortaa, type=Regular]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=DejaVu Sans, type=Regular]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=DejaVu Sans, type=Regular]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=DejaVu Sans Condensed, type=Regular]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=DejaVu Sans Condensed, type=Regular]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=DejaVu Sans Mono, type=Regular]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=DejaVu Sans Mono, type=Regular]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=Bitstream Vera Sans, type=Regular]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=Bitstream Vera Sans, type=Regular]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=Bitstream Vera Sans Mono, type=Regular]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=Bitstream Vera Sans Mono, type=Regular]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=JetBrains Mono, type=Regular]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=JetBrainsMono Nerd Font Mono, type=Italic]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=JetBrainsMono Nerd Font, type=Italic]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=JetBrainsMono Nerd Font Mono, type=Italic]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=JetBrainsMono Nerd Font, type=Italic]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=JetBrainsMono Nerd Font Mono, type=Regular]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=JetBrainsMono Nerd Font, type=Regular]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=JetBrainsMono Nerd Font Mono, type=Regular]
+[19:22:51] [Render thread/WARN]: Failed to load font: FontInfo[family=JetBrainsMono Nerd Font, type=Regular]
+[19:22:52] [Render thread/WARN]: Failed to load font: FontInfo[family=Noto Sans, type=Bold]
+[19:22:52] [Render thread/WARN]: Failed to load font: FontInfo[family=Noto Sans, type=Bold Italic]
+[19:22:52] [Render thread/WARN]: Failed to load font: FontInfo[family=Noto Sans, type=Italic]
+[19:22:52] [Render thread/WARN]: Failed to load font: FontInfo[family=Noto Sans, type=Regular]
+[19:22:52] [Render thread/WARN]: Failed to load font: FontInfo[family=Noto Sans Black, type=Italic]
+[19:22:52] [Render thread/WARN]: Failed to load font: FontInfo[family=Noto Sans Light, type=Italic]
+[19:22:52] [Render thread/WARN]: Failed to load font: FontInfo[family=Noto Sans Medium, type=Italic]
+[19:22:52] [Render thread/WARN]: Failed to load font: FontInfo[family=Noto Sans Thin, type=Italic]
+[19:22:52] [Render thread/WARN]: Failed to load font: FontInfo[family=Noto Sans Sundanese, type=Regular]
+[19:22:52] [Render thread/WARN]: Failed to load font: FontInfo[family=Noto Serif Dogra, type=Regular]
+[19:22:52] [Render thread/WARN]: Failed to load font: FontInfo[family=Noto Serif Dogra, type=Regular]
+[19:22:53] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Bold Italic]
+[19:22:53] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Bold]
+[19:22:53] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Bold]
+[19:22:53] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka Nerd Font Mono, type=Bold]
+[19:22:53] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Bold]
+[19:22:53] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka Nerd Font, type=Bold]
+[19:22:53] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Bold Italic]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka Nerd Font Mono, type=Bold Italic]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Bold Italic]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka Nerd Font, type=Bold Italic]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Bold]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka Nerd Font Mono, type=Bold]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Bold]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka Nerd Font, type=Bold]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Bold]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka Nerd Font Mono, type=Bold]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Bold]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka Nerd Font, type=Bold]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Italic]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Regular]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Regular]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka Nerd Font Mono, type=Regular]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Regular]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka Nerd Font, type=Regular]
+[19:22:54] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Italic]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka Nerd Font Mono, type=Italic]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Italic]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka Nerd Font, type=Italic]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Regular]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka Nerd Font Mono, type=Regular]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Regular]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka Nerd Font, type=Regular]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Regular]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka Nerd Font Mono, type=Regular]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka NF, type=Regular]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=AestheticIosevka Nerd Font, type=Regular]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=Aesthetic Iosevka Original, type=Bold]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=Aesthetic Iosevka Original, type=Bold Italic]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=Aesthetic Iosevka Original Obl, type=Bold]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=Aesthetic Iosevka Original Ex, type=Regular]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=Aesthetic Iosevka Original Ex, type=Bold]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=Aesthetic Iosevka Original Ex, type=Bold Italic]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=Aesthetic Iosevka Original ExObl, type=Bold]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=Aesthetic Iosevka Original Ex, type=Italic]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=Aesthetic Iosevka Original ExObl, type=Regular]
+[19:22:55] [Render thread/WARN]: Failed to load font: FontInfo[family=Aesthetic Iosevka Original, type=Italic]
+[19:22:56] [Render thread/WARN]: Failed to load font: FontInfo[family=Aesthetic Iosevka Original Obl, type=Regular]
+[19:22:56] [Render thread/WARN]: Failed to load font: FontInfo[family=Aesthetic Iosevka Original, type=Regular]
+[19:22:56] [Render thread/WARN]: Failed to load font: FontInfo[family=icomoon, type=Regular]
+[19:22:56] [Render thread/WARN]: Failed to load font: FontInfo[family=icomoon, type=Regular]
+[19:22:56] [Render thread/WARN]: Failed to load font: FontInfo[family=icomoon, type=Regular]
+[19:22:56] [Render thread/WARN]: Failed to load font: FontInfo[family=icomoon, type=Regular]
+[19:22:56] [Render thread/INFO]: Found 617 font families.
+[19:22:56] [Render thread/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 26 values
+[19:22:56] [Render thread/INFO]: Reflections took 20 ms to scan 1 urls, producing 7 keys and 84 values
+[19:22:56] [Render thread/INFO]: Reflections took 17 ms to scan 1 urls, producing 2 keys and 86 values
+[19:22:56] [Render thread/INFO]: MeteorPlus registering categories...
+[19:22:56] [Render thread/INFO]: MeteorPlus register categories
+[19:22:58] [Render thread/INFO]: Initializing Meteor Crash Addon.
+[19:22:58] [Render thread/INFO]: Initializing Meteor Rejects Addon
+[19:22:58] [Render thread/INFO]: MeteorPlus initializing...
+[19:22:58] [Render thread/INFO]: MeteorPlus initializing commands...
+[19:22:58] [Render thread/INFO]: MeteorPlus loaded commands
+[19:22:58] [Render thread/INFO]: MeteorPlus initializing modules...
+[19:22:58] [Render thread/INFO]: MeteorPlus loaded modules
+[19:22:58] [Render thread/INFO]: MeteorPlus initializing hud...
+[19:22:58] [Render thread/INFO]: MeteorPlus loaded hud
+[19:22:58] [Render thread/INFO]: MeteorPlus loaded
+[19:22:58] [Render thread/INFO]: Loading
+[19:22:58] [Render thread/WARN]: Shader blobs could not find uniform named OutSize in the specified shader program.
+[19:22:58] [Render thread/WARN]: Shader blobs could not find uniform named OutSize in the specified shader program.
+[19:22:58] [Render thread/INFO]: Loaded in 72 milliseconds
+[19:22:58] [Render thread/INFO]: Reflections took 174 ms to scan 1 urls, producing 17 keys and 780 values
+[19:22:58] [Render thread/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 26 values
+[19:22:58] [Render thread/INFO]: Reflections took 29 ms to scan 1 urls, producing 7 keys and 84 values
+[19:22:58] [Render thread/INFO]: Reflections took 20 ms to scan 1 urls, producing 2 keys and 86 values
+[19:22:58] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[19:22:58] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[19:22:59] [Render thread/INFO]: OpenAL initialized on device JACK Default
+[19:22:59] [Render thread/INFO]: Sound engine started
+[19:22:59] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[19:22:59] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19:22:59] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:22:59] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:22:59] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:22:59] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:22:59] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:23:00] [Render thread/WARN]: @Redirect conflict. Skipping debugify.client.mixins.json:basic.mc165595.GuardianEntityRendererMixin from mod debugify->@Redirect::useCorrectTime(Lnet/minecraft/class_1937;)J with priority 900, already redirected by sodium-extra.mixins.json:render.entity.MixinGuardianEntityRenderer from mod sodium-extra->@Redirect::useTimeOfDay(Lnet/minecraft/class_1937;)J with priority 1000
+[19:23:00] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[19:23:00] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:23:00] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:23:00] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:23:02] [Render thread/INFO]: Checking latest version of Meteor Client
+[19:23:03] [pool-5-thread-1/INFO]: Rejects version: 36bc339e74cf8ba678f0fa8ff0674181e4cf1181
+[19:23:03] [pool-5-thread-1/INFO]: Rejects version: 36bc339e74cf8ba678f0fa8ff0674181e4cf1181
+[19:23:12] [Render thread/INFO]: Connecting to Ecomanages6YC.aternos.me, 56798
+[19:23:19] [Render thread/INFO]: Connecting to Ecomanages6YC.aternos.me, 56798
+[19:23:28] [Render thread/INFO]: Connecting to Ecomanages6YC.aternos.me, 56798
+[19:23:37] [Render thread/INFO]: Connecting to Ecomanages6YC.aternos.me, 56798
+[19:23:46] [Render thread/INFO]: Connecting to Ecomanages6YC.aternos.me, 56798
+[19:23:55] [Render thread/INFO]: Connecting to Ecomanages6YC.aternos.me, 56798
+[19:24:04] [Render thread/INFO]: Connecting to Ecomanages6YC.aternos.me, 56798
+[19:24:13] [Render thread/INFO]: Connecting to Ecomanages6YC.aternos.me, 56798
+[19:24:22] [Render thread/INFO]: Connecting to Ecomanages6YC.aternos.me, 56798
+[19:24:31] [Render thread/INFO]: Connecting to Ecomanages6YC.aternos.me, 56798
+[19:24:40] [Render thread/INFO]: Connecting to Ecomanages6YC.aternos.me, 56798
+[19:24:45] [Render thread/INFO]: Connecting to Ecomanages6YC.aternos.me, 56798
+[19:24:48] [Render thread/INFO]: [WTHIT] Connecting to dedicated server, resetting syncable config to client-only values
+[19:24:48] [Render thread/WARN]: Method overwrite conflict for getChunks in meteor-client.mixins.json:ClientChunkMapAccessor from mod meteor-client, previously written by baritone.launch.mixins.MixinChunkArray. Skipping method.
+[19:24:49] [Render thread/WARN]: @Redirect conflict. Skipping mixins.iris.compat.sodium.json:vertex_format.MixinFluidRenderer from mod iris->@Redirect::iris$fixSidewaysInnerFaceNormal(Lme/jellysquid/mods/sodium/client/model/IndexBufferBuilder;ILme/jellysquid/mods/sodium/client/model/quad/properties/ModelQuadWinding;Lnet/minecraft/class_1920;Lnet/minecraft/class_3610;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lme/jellysquid/mods/sodium/client/render/chunk/compile/buffers/ChunkModelBuilder;)V with priority 1000, already redirected by mixins.iris.compat.sodium.json:vertex_format.MixinFluidRenderer from mod iris->@Redirect::iris$fixBackwardUpFaceNormal(Lme/jellysquid/mods/sodium/client/model/IndexBufferBuilder;ILme/jellysquid/mods/sodium/client/model/quad/properties/ModelQuadWinding;Lnet/minecraft/class_1920;Lnet/minecraft/class_3610;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lme/jellysquid/mods/sodium/client/render/chunk/compile/buffers/ChunkModelBuilder;)V with priority 1000
+[19:24:49] [Render thread/INFO]: Started 4 worker threads
+[19:24:49] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/charlie/.minecraft/baritone/Ecomanages6YC.aternos.me:56798/minecraft/overworld_384
+[19:24:49] [Render thread/INFO]: [STDOUT]: Cached world directory: /home/charlie/.minecraft/baritone/Ecomanages6YC.aternos.me:56798/minecraft/overworld_384/cache
+[19:24:49] [Render thread/INFO]: [STDOUT]: Would save waypoints to /home/charlie/.minecraft/baritone/Ecomanages6YC.aternos.me:56798/minecraft/overworld_384/waypoints
+[19:24:49] [Render thread/WARN]: Ambiguity between arguments [cfind, --keep-searching] and [cfind, filter] with inputs: [--keep-searching]
+[19:24:49] [Render thread/INFO]: Using 3 total BufferBuilder caches
+[19:24:50] [Render thread/WARN]: Unable to read property: east with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[19:24:50] [Render thread/WARN]: Unable to read property: south with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[19:24:50] [Render thread/WARN]: Unable to read property: north with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[19:24:50] [Render thread/WARN]: Unable to read property: west with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[19:24:50] [Render thread/WARN]: Unable to read property: east with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[19:24:50] [Render thread/WARN]: Unable to read property: south with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[19:24:50] [Render thread/WARN]: Unable to read property: north with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[19:24:50] [Render thread/WARN]: Unable to read property: west with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[19:24:52] [Render thread/INFO]: Loaded 411 advancements
+[19:24:52] [pool-4-thread-1/INFO]: [STDOUT]: Loading region -4,3 from disk /home/charlie/.minecraft/baritone/Ecomanages6YC.aternos.me:56798/minecraft/overworld_384/cache
+[19:24:52] [pool-4-thread-1/INFO]: [STDOUT]: Loaded region successfully in 278ms
+[19:24:52] [Render thread/INFO]: Stopping worker threads
+[19:24:52] [Render thread/INFO]: Started 4 worker threads
+[19:24:52] [Render thread/INFO]: Animated skins loaded and ready to use!
+[19:24:57] [pool-4-thread-1/INFO]: [STDOUT]: Loading region -3,3 from disk /home/charlie/.minecraft/baritone/Ecomanages6YC.aternos.me:56798/minecraft/overworld_384/cache
+[19:24:57] [pool-4-thread-1/INFO]: [STDOUT]: Loaded region successfully in 149ms
+[19:25:19] [pool-4-thread-2/INFO]: [STDOUT]: Saving region -3,3 to disk /home/charlie/.minecraft/baritone/Ecomanages6YC.aternos.me:56798/minecraft/overworld_384/cache
+[19:25:19] [ForkJoinPool.commonPool-worker-2/INFO]: [STDOUT]: Saving region -4,3 to disk /home/charlie/.minecraft/baritone/Ecomanages6YC.aternos.me:56798/minecraft/overworld_384/cache
+[19:25:19] [pool-4-thread-2/INFO]: [STDOUT]: Saved region successfully
+[19:25:19] [ForkJoinPool.commonPool-worker-2/INFO]: [STDOUT]: Saved region successfully
+[19:25:19] [pool-4-thread-2/INFO]: [STDOUT]: World save took 242ms
+[19:25:25] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[19:28:17] [Render thread/INFO]: Loaded 411 advancements
+[19:35:19] [pool-4-thread-2/INFO]: [STDOUT]: Saving region -3,3 to disk /home/charlie/.minecraft/baritone/Ecomanages6YC.aternos.me:56798/minecraft/overworld_384/cache
+[19:35:19] [ForkJoinPool.commonPool-worker-3/INFO]: [STDOUT]: Saving region -4,3 to disk /home/charlie/.minecraft/baritone/Ecomanages6YC.aternos.me:56798/minecraft/overworld_384/cache
+[19:35:19] [pool-4-thread-2/INFO]: [STDOUT]: Saved region successfully
+[19:35:19] [ForkJoinPool.commonPool-worker-3/INFO]: [STDOUT]: Saved region successfully
+[19:35:19] [pool-4-thread-2/INFO]: [STDOUT]: World save took 126ms
+[19:45:19] [pool-4-thread-2/INFO]: [STDOUT]: World save took 1ms
+[19:55:19] [pool-4-thread-2/INFO]: [STDOUT]: Saving region -3,3 to disk /home/charlie/.minecraft/baritone/Ecomanages6YC.aternos.me:56798/minecraft/overworld_384/cache
+[19:55:19] [ForkJoinPool.commonPool-worker-5/INFO]: [STDOUT]: Saving region -4,3 to disk /home/charlie/.minecraft/baritone/Ecomanages6YC.aternos.me:56798/minecraft/overworld_384/cache
+[19:55:19] [pool-4-thread-2/INFO]: [STDOUT]: Saved region successfully
+[19:55:19] [ForkJoinPool.commonPool-worker-5/INFO]: [STDOUT]: Saved region successfully
+[19:55:19] [pool-4-thread-2/INFO]: [STDOUT]: World save took 121ms
+[19:56:17] [pool-12-thread-5/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: net.minecraft.class_148: Getting block state
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at net.minecraft.class_2818.method_8320(class_2818.java:192)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at net.minecraft.class_1937.method_8320(class_1937.java:370)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at kaptainwutax.seedcrackerX.finder.structure.PieceFinder.findInChunk(PieceFinder.java:87)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at kaptainwutax.seedcrackerX.finder.structure.MonumentFinder.lambda$findInChunkPieces$4(MonumentFinder.java:90)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at kaptainwutax.seedcrackerX.finder.structure.MonumentFinder.findInChunkPieces(MonumentFinder.java:89)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at kaptainwutax.seedcrackerX.finder.structure.MonumentFinder.findInChunk(MonumentFinder.java:61)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at kaptainwutax.seedcrackerX.finder.FinderQueue.lambda$onChunkData$0(FinderQueue.java:43)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at kaptainwutax.seedcrackerX.finder.FinderQueue.lambda$onChunkData$1(FinderQueue.java:41)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: Caused by: net.minecraft.class_6558: Missing Palette entry for index 8.
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at net.minecraft.class_2814.method_12288(class_2814.java:64)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at net.minecraft.class_2841.method_12331(class_2841.java:157)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at net.minecraft.class_2841.method_12321(class_2841.java:151)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at net.minecraft.class_2826.method_12254(class_2826.java:51)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	at net.minecraft.class_2818.method_8320(class_2818.java:184)
+[19:56:17] [pool-12-thread-5/INFO]: [STDERR]: 	... 14 more
+[19:57:06] [pool-12-thread-4/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: net.minecraft.class_148: Getting block state
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at net.minecraft.class_2818.method_8320(class_2818.java:192)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at net.minecraft.class_1937.method_8320(class_1937.java:370)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at kaptainwutax.seedcrackerX.finder.structure.PieceFinder.findInChunk(PieceFinder.java:87)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at kaptainwutax.seedcrackerX.finder.structure.MonumentFinder.lambda$findInChunkPieces$4(MonumentFinder.java:90)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at kaptainwutax.seedcrackerX.finder.structure.MonumentFinder.findInChunkPieces(MonumentFinder.java:89)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at kaptainwutax.seedcrackerX.finder.structure.MonumentFinder.findInChunk(MonumentFinder.java:61)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at kaptainwutax.seedcrackerX.finder.FinderQueue.lambda$onChunkData$0(FinderQueue.java:43)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at kaptainwutax.seedcrackerX.finder.FinderQueue.lambda$onChunkData$1(FinderQueue.java:41)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: Caused by: net.minecraft.class_6558: Missing Palette entry for index 8.
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at net.minecraft.class_2814.method_12288(class_2814.java:64)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at net.minecraft.class_2841.method_12331(class_2841.java:157)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at net.minecraft.class_2841.method_12321(class_2841.java:151)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at net.minecraft.class_2826.method_12254(class_2826.java:51)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	at net.minecraft.class_2818.method_8320(class_2818.java:184)
+[19:57:06] [pool-12-thread-4/INFO]: [STDERR]: 	... 14 more
+[20:03:21] [Render thread/INFO]: Stopping!
+[20:03:21] [Netty Epoll Client IO #11/INFO]: [WTHIT] Plugin config reloaded
+[20:03:21] [Render thread/INFO]: Saving
+[20:03:21] [Render thread/INFO]: Saved in 17 milliseconds.
+[20:03:21] [Render thread/INFO]: Stopping worker threads
+[20:03:21] [Thread-7/INFO]: [STDOUT]: saving seeds...
+[20:03:21] [Thread-8/INFO]: Saving

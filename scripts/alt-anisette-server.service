@@ -1,0 +1,9 @@
+[Unit]
+Description=alt anisette server
+[Service]
+Type=simple
+User=charlie
+ExecStart=/home/charlie/scripts/alt-anisette-server.sh
+
+[Install]
+WantedBy=multi-user.target
